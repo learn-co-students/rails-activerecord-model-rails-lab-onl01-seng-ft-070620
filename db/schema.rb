@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20200903213912) do
 
-  create_table "students_tables", force: :cascade do |t|
+  create_table "students", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
   end
